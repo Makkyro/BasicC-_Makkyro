@@ -1,8 +1,12 @@
 ﻿//С клавиатуры вводятся три числа. Найти максимальное из трех чисел
 
-int a=3;
-int b=6;
-int c=9;
+int a,b,c;
+string? s=Console.ReadLine();
+a=Convert.ToInt32(s);
+s=Console.ReadLine();
+b=Convert.ToInt32(s);
+s=Console.ReadLine();
+c=Convert.ToInt32(s);
 
 if (a>b&a>c)
 {

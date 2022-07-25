@@ -1,7 +1,10 @@
 ﻿//С клавиатуры вводятся два числа a и b. Найти максимальное из них.
 
-int a=3;
-int b=6;
+int a,b;
+string? s=Console.ReadLine();
+a=Convert.ToInt32(s);
+s=Console.ReadLine();
+b=Convert.ToInt32(s);
 
 if (a<b)
 {
